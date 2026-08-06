@@ -1,7 +1,7 @@
 // Vetor contendo as 5 perguntas baseadas no Evangelho de Joao 4
 const perguntas = [
     {
-        enunciado: "Ao passar por Samaria, Jesus para junto ao poco de Jaco e pede agua a uma mulher samaritana. Qual e a sua atitude diante dessa quebra de barreiras culturais e sociais?",
+        enunciado: "Ao passar por Samaria, Jesus para junto ao poco de Jacó e pede agua a uma mulher samaritana. Qual e a sua atitude diante dessa quebra de barreiras culturais e sociais?",
         alternativas: [
             {
                 texto: "Voce valoriza a atitude de Jesus em superar preconceitos historicos para levar a mensagem a todas as pessoas.",
