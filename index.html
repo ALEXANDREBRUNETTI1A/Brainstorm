@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teologia de Joao 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Teologia de Joao 4</h1>
+            <p class="subtitulo">Quiz Interativo sobre o Evangelho de Joao Capitulo 4</p>
+        </header>
+
+        <main id="quiz-container">
+            <div id="progresso-container">
+                <span id="texto-progresso">Pergunta 1 de 5</span>
+                <div class="barra-progresso">
+                    <div id="barra-preenchimento"></div>
+                </div>
+            </div>
+
+            <div id="card-pergunta">
+                <h2 id="enunciado-pergunta"></h2>
+                <div id="opcoes-container" class="opcoes-container">
+                    </div>
+            </div>
+
+            <div id="card-resultado" class="escondido">
+                <h2>Resultado do Quiz</h2>
+                <p id="resumo-resultado"></p>
+                <div id="lista-afirmacoes"></div>
+                <button id="btn-reiniciar" onclick="reiniciarQuiz()">Refazer Quiz</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
